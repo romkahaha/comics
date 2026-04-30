@@ -1,21 +1,55 @@
 query_name,matched_items,seed_rows,opportunities,errors,status,finished_at_utc
-AK-47 | Case Hardened,10,0,0,0,completed,2026-04-30T06:01:49.249444+00:00
-AWP | Electric Hive,8,10,0,0,completed,2026-04-30T06:03:54.579365+00:00
-AWP | PAW,10,15,0,0,completed,2026-04-30T06:07:30.174828+00:00
-Bayonet | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.207029+00:00
-Bayonet | Marble Fade,0,0,0,no_items_matched_query,2026-04-30T06:07:30.239998+00:00
-Bowie Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.272714+00:00
-Butterfly Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.306106+00:00
-Butterfly Knife | Doppler,0,0,0,no_items_matched_query,2026-04-30T06:07:30.339355+00:00
-Butterfly Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T06:07:30.373037+00:00
-Butterfly Knife | Gamma Doppler,0,0,0,no_items_matched_query,2026-04-30T06:07:30.405428+00:00
-Classic Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.438864+00:00
-Classic Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T06:07:30.471853+00:00
-Desert Eagle | Heat Treated,5,0,0,0,completed,2026-04-30T06:09:44.108366+00:00
-Falchion Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:09:44.141782+00:00
-Five-SeveN | Berries And Cherries,2,0,0,0,completed,2026-04-30T06:10:00.890500+00:00
-Five-SeveN | Case Hardened,10,1,0,0,completed,2026-04-30T06:12:49.262106+00:00
-Five-SeveN | Kami,6,9,0,0,completed,2026-04-30T06:15:08.987176+00:00
-Five-SeveN | Neon Kimono,5,0,0,0,completed,2026-04-30T06:16:20.393438+00:00
-Flip Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:16:20.426321+00:00
-Flip Knife | Marble Fade,0,0,0,no_items_matched_query,2026-04-30T06:16:20.459167+00:00
+Galil AR | Caution,10,0,0,0,completed,2026-04-30T06:24:37.451633+00:00
+Galil AR | Crimson Tsunami,10,0,0,0,completed,2026-04-30T06:27:33.959500+00:00
+Galil AR | Phoenix Blacklight,5,0,0,0,completed,2026-04-30T06:28:42.154112+00:00
+Galil AR | Sandstorm,8,6,0,0,completed,2026-04-30T06:31:06.384388+00:00
+Glock-18 | Gamma Doppler,5,6,0,0,completed,2026-04-30T06:32:14.181089+00:00
+Glock-18 | Grinder,6,4,0,0,completed,2026-04-30T06:37:19.026998+00:00
+Glock-18 | High Beam,4,1,0,0,completed,2026-04-30T06:38:42.450054+00:00
+Glock-18 | Moonrise,10,14,0,0,completed,2026-04-30T06:52:44.763743+00:00
+Glock-18 | Reactor,10,0,0,0,completed,2026-04-30T06:55:23.124773+00:00
+Glock-18 | Red Tire,10,0,0,0,completed,2026-04-30T06:58:06.912885+00:00
+Gut Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:58:06.947345+00:00
+Huntsman Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:58:06.981976+00:00
+Karambit | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:58:07.018796+00:00
+Karambit | Doppler,0,0,0,no_items_matched_query,2026-04-30T06:58:07.054625+00:00
+Karambit | Fade,0,0,0,no_items_matched_query,2026-04-30T06:58:07.090579+00:00
+Karambit | Gamma Doppler,0,0,0,no_items_matched_query,2026-04-30T06:58:07.125292+00:00
+Karambit | Marble Fade,0,0,0,no_items_matched_query,2026-04-30T06:58:07.161538+00:00
+Kukri Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:58:07.196598+00:00
+M4A4 | Daybreak,5,0,0,0,completed,2026-04-30T06:59:17.495223+00:00
+M9 Bayonet | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:59:17.531417+00:00
+M9 Bayonet | Doppler,0,0,0,no_items_matched_query,2026-04-30T06:59:17.566273+00:00
+M9 Bayonet | Gamma Doppler,0,0,0,no_items_matched_query,2026-04-30T06:59:17.601356+00:00
+MAC-10 | Case Hardened,10,14,0,0,completed,2026-04-30T07:01:54.073482+00:00
+MAC-10 | Last Dive,5,4,0,0,completed,2026-04-30T07:03:20.166565+00:00
+MAG-7 | Sonar,4,1,0,0,completed,2026-04-30T07:04:33.621024+00:00
+Nomad Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T07:04:33.659035+00:00
+Nomad Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T07:04:33.695059+00:00
+Nova | Windblown,10,3,0,0,completed,2026-04-30T07:17:01.563151+00:00
+P2000 | Acid Etched,10,0,0,0,completed,2026-04-30T07:23:26.294386+00:00
+P250 | Bengal Tiger,5,2,0,0,completed,2026-04-30T07:24:37.940048+00:00
+P250 | Crimson Kimono,5,0,0,0,completed,2026-04-30T07:25:49.345466+00:00
+P250 | Mint Kimono,5,5,0,0,completed,2026-04-30T07:27:00.660675+00:00
+P250 | Nevermore,8,5,0,0,completed,2026-04-30T07:32:18.633405+00:00
+Paracord Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T07:32:18.669477+00:00
+Sawed-Off | Brake Light,4,0,0,0,completed,2026-04-30T07:36:44.209422+00:00
+Shadow Daggers | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T07:36:44.244151+00:00
+Shadow Daggers | Fade,0,0,0,no_items_matched_query,2026-04-30T07:36:44.278327+00:00
+Skeleton Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T07:36:44.312489+00:00
+Stiletto Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T07:36:44.346805+00:00
+Stiletto Knife | Scorched,0,0,0,no_items_matched_query,2026-04-30T07:36:44.380806+00:00
+Survival Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T07:36:44.414578+00:00
+Talon Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T07:36:44.448786+00:00
+Talon Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T07:36:44.482767+00:00
+Talon Knife | Marble Fade,0,0,0,no_items_matched_query,2026-04-30T07:36:44.516677+00:00
+Tec-9 | Cracked Opal,5,0,0,0,completed,2026-04-30T07:38:31.755984+00:00
+Tec-9 | Ice Cap,5,2,0,0,completed,2026-04-30T07:43:17.045750+00:00
+Tec-9 | Sandstorm,4,6,1,0,completed,2026-04-30T07:44:24.620897+00:00
+UMP-45 | Minotaur's Labyrinth,4,0,0,0,completed,2026-04-30T07:45:17.224372+00:00
+USP-S | Alpine Camo,5,0,0,0,completed,2026-04-30T07:53:29.205027+00:00
+Ursus Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T07:53:29.239258+00:00
+XM1014 | Elegant Vines,6,0,0,0,completed,2026-04-30T07:55:01.593879+00:00
+XM1014 | Seasons,10,30,0,0,completed,2026-04-30T07:58:22.446602+00:00
+XM1014 | XOXO,10,3,0,0,completed,2026-04-30T08:01:14.707483+00:00
+XM1014 | Ziggy,10,2,0,0,completed,2026-04-30T08:04:01.466755+00:00
