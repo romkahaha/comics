@@ -1,0 +1,124 @@
+name: Seed monitoring
+
+on:
+  workflow_dispatch:
+    inputs:
+      duration_minutes:
+        description: How long the monitoring loop should run
+        required: false
+        default: "300"
+      batch_size:
+        description: Target rows per batch. Keep 1 for immediate per-name reporting.
+        required: false
+        default: "1"
+      telegram_mode:
+        description: Telegram delivery mode
+        required: false
+        default: real
+        type: choice
+        options:
+          - real
+          - dry-run
+          - off
+      query_substring:
+        description: Optional target query_name substring for tests
+        required: false
+        default: ""
+      max_batches:
+        description: Optional max batches for short tests
+        required: false
+        default: ""
+      max_cycles:
+        description: Optional max full target-list cycles
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seed-monitoring-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      DURATION_MINUTES: ${{ github.event.inputs.duration_minutes || '300' }}
+      BATCH_SIZE: ${{ github.event.inputs.batch_size || '1' }}
+      TELEGRAM_MODE: ${{ github.event.inputs.telegram_mode || 'real' }}
+      QUERY_SUBSTRING: ${{ github.event.inputs.query_substring || '' }}
+      MAX_BATCHES: ${{ github.event.inputs.max_batches || '' }}
+      MAX_CYCLES: ${{ github.event.inputs.max_cycles || '' }}
+      STEAM_COOKIES: ${{ secrets.STEAM_COOKIES }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Rebase runtime state
+        run: git pull --rebase origin "${GITHUB_REF_NAME}"
+
+      - name: Configure runtime commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run seed monitoring
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          args=(
+            --duration-minutes "$DURATION_MINUTES"
+            --batch-size "$BATCH_SIZE"
+            --telegram-mode "$TELEGRAM_MODE"
+          )
+
+          if [[ -n "$QUERY_SUBSTRING" ]]; then
+            args+=(--query-substring "$QUERY_SUBSTRING")
+          fi
+          if [[ -n "$MAX_BATCHES" ]]; then
+            args+=(--max-batches "$MAX_BATCHES")
+          fi
+          if [[ -n "$MAX_CYCLES" ]]; then
+            args+=(--max-cycles "$MAX_CYCLES")
+          fi
+
+          python -B monitoring/run_monitoring.py "${args[@]}"
+
+      - name: Commit runtime outputs
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add monitoring_runtime
+
+          if git diff --cached --quiet; then
+            echo "No monitoring runtime changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update seed monitoring runtime [skip ci]"
+          if git push origin HEAD:"${GITHUB_REF_NAME}"; then
+            exit 0
+          fi
+
+          echo "Push rejected; rebasing runtime commit and retrying."
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"

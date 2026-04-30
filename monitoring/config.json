@@ -1,0 +1,49 @@
+{
+  "__READ_ME__": "Seed monitoring settings. The runner reads data/seed_target_table.csv, expands each query_name through lists/screening_super_full.py, scans Steam /render/ listings, filters opportunities, and sends Telegram alerts immediately after each target row.",
+  "paths": {
+    "target_csv": "data/seed_target_table.csv",
+    "items_py": "lists/screening_super_full.py",
+    "state_json": "monitoring_runtime/state.json",
+    "latest_matches_csv": "monitoring_runtime/seed_matches_latest.csv",
+    "latest_opportunities_csv": "monitoring_runtime/opportunities_latest.csv",
+    "progress_csv": "monitoring_runtime/progress_latest.csv"
+  },
+  "monitoring": {
+    "duration_minutes": 300,
+    "target_batch_size": 1,
+    "query_substring": "",
+    "max_batches": null,
+    "max_cycles": null,
+    "cycle_sleep_sec": 0.0,
+    "clear_latest_outputs_on_start": true
+  },
+  "steam": {
+    "currency": 3,
+    "limit": 100,
+    "max_listings_per_item": 200,
+    "request_timeout_sec": 45.0,
+    "retry_attempts": 2,
+    "retry_sleep_min_sec": 2.0,
+    "retry_sleep_max_sec": 7.0,
+    "delay_between_items_min_sec": 2.0,
+    "delay_between_items_max_sec": 5.0,
+    "delay_between_pages_min_sec": 2.0,
+    "delay_between_pages_max_sec": 5.0,
+    "log_progress": true
+  },
+  "filters": {
+    "min_edge_ratio": 0.7,
+    "max_ask": null,
+    "min_expected_overpay_mult": null,
+    "min_overpay_gap_mult": null,
+    "min_overall_confidence": null,
+    "item_substring": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "cooldown_hours": 24.0,
+    "sleep_sec": 0.6,
+    "max_alerts_per_target": null,
+    "disable_web_page_preview": true
+  }
+}
