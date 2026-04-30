@@ -2,11 +2,11 @@
   "version": 1,
   "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
   "targets_count": 74,
-  "target_pointer": 0,
-  "cycle_count": 1,
-  "last_run_started_at_utc": "2026-04-30T06:21:51.480427+00:00",
-  "last_run_finished_at_utc": "2026-04-30T08:04:01.470431+00:00",
-  "last_target": "XM1014 | Ziggy",
+  "target_pointer": 30,
+  "cycle_count": 3,
+  "last_run_started_at_utc": "2026-04-30T09:34:36.177569+00:00",
+  "last_run_finished_at_utc": "2026-04-30T14:34:41.029283+00:00",
+  "last_target": "Glock-18 | Red Tire",
   "last_status": "ok",
   "last_error": null,
   "sent_alerts": {
@@ -18,11 +18,20 @@
       "paint_seed": 487,
       "ask": 9.23,
       "edge_ratio": 0.7902491874322859
+    },
+    "listing:501730992843618053": {
+      "sent_at_utc": "2026-04-30T11:06:48.613894+00:00",
+      "query_name": "Tec-9 | Sandstorm",
+      "market_hash_name": "Tec-9 | Sandstorm (Battle-Scarred)",
+      "listing_id": "501730992843618053",
+      "paint_seed": 583,
+      "ask": 1.03,
+      "edge_ratio": 0.829708737864078
     }
   },
-  "last_target_finished_at_utc": "2026-04-30T08:04:01.468872+00:00",
-  "last_rows_seen": 2,
+  "last_target_finished_at_utc": "2026-04-30T14:34:41.027709+00:00",
+  "last_rows_seen": 0,
   "last_opportunities": 0,
   "last_alerts_sent": 0,
-  "last_alert_sent_at_utc": "2026-04-30T07:44:25.055613+00:00"
+  "last_alert_sent_at_utc": "2026-04-30T11:06:48.613915+00:00"
 }
