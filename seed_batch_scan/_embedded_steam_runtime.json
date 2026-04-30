@@ -1,0 +1,14 @@
+{
+  "steam_currency": 3,
+  "request_timeout_sec": 60.0,
+  "retry_attempts": 2,
+  "retry_sleep_min_sec": 2.0,
+  "retry_sleep_max_sec": 7.0,
+  "delay_between_skins_min_sec": 2.0,
+  "delay_between_skins_max_sec": 5.0,
+  "delay_between_render_pages_min_sec": 2.0,
+  "delay_between_render_pages_max_sec": 5.0,
+  "batch_log_progress": 1,
+  "float_decimal_places": 14,
+  "include_asset_properties_json": 0
+}
