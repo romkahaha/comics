@@ -1,0 +1,21 @@
+query_name,matched_items,seed_rows,opportunities,errors,status,finished_at_utc
+AK-47 | Case Hardened,10,0,0,0,completed,2026-04-30T06:01:49.249444+00:00
+AWP | Electric Hive,8,10,0,0,completed,2026-04-30T06:03:54.579365+00:00
+AWP | PAW,10,15,0,0,completed,2026-04-30T06:07:30.174828+00:00
+Bayonet | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.207029+00:00
+Bayonet | Marble Fade,0,0,0,no_items_matched_query,2026-04-30T06:07:30.239998+00:00
+Bowie Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.272714+00:00
+Butterfly Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.306106+00:00
+Butterfly Knife | Doppler,0,0,0,no_items_matched_query,2026-04-30T06:07:30.339355+00:00
+Butterfly Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T06:07:30.373037+00:00
+Butterfly Knife | Gamma Doppler,0,0,0,no_items_matched_query,2026-04-30T06:07:30.405428+00:00
+Classic Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:07:30.438864+00:00
+Classic Knife | Fade,0,0,0,no_items_matched_query,2026-04-30T06:07:30.471853+00:00
+Desert Eagle | Heat Treated,5,0,0,0,completed,2026-04-30T06:09:44.108366+00:00
+Falchion Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:09:44.141782+00:00
+Five-SeveN | Berries And Cherries,2,0,0,0,completed,2026-04-30T06:10:00.890500+00:00
+Five-SeveN | Case Hardened,10,1,0,0,completed,2026-04-30T06:12:49.262106+00:00
+Five-SeveN | Kami,6,9,0,0,completed,2026-04-30T06:15:08.987176+00:00
+Five-SeveN | Neon Kimono,5,0,0,0,completed,2026-04-30T06:16:20.393438+00:00
+Flip Knife | Case Hardened,0,0,0,no_items_matched_query,2026-04-30T06:16:20.426321+00:00
+Flip Knife | Marble Fade,0,0,0,no_items_matched_query,2026-04-30T06:16:20.459167+00:00

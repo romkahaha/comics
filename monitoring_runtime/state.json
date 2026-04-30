@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
+  "targets_count": 74,
+  "target_pointer": 20,
+  "cycle_count": 0,
+  "last_run_started_at_utc": "2026-04-30T05:59:11.708574+00:00",
+  "last_run_finished_at_utc": null,
+  "last_target": "Flip Knife | Marble Fade",
+  "last_status": "ok_with_errors",
+  "last_error": "1 item errors",
+  "sent_alerts": {},
+  "last_target_finished_at_utc": "2026-04-30T06:16:20.461735+00:00",
+  "last_rows_seen": 0,
+  "last_opportunities": 0,
+  "last_alerts_sent": 0
+}
