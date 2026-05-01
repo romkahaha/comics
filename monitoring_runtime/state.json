@@ -2,11 +2,11 @@
   "version": 1,
   "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
   "targets_count": 74,
-  "target_pointer": 69,
-  "cycle_count": 10,
-  "last_run_started_at_utc": "2026-05-01T04:37:50.546449+00:00",
-  "last_run_finished_at_utc": "2026-05-01T09:47:45.185123+00:00",
-  "last_target": "USP-S | Alpine Camo",
+  "target_pointer": 21,
+  "cycle_count": 13,
+  "last_run_started_at_utc": "2026-05-01T09:48:04.765861+00:00",
+  "last_run_finished_at_utc": "2026-05-01T14:48:35.387783+00:00",
+  "last_target": "Galil AR | Caution",
   "last_status": "ok",
   "last_error": null,
   "sent_alerts": {
@@ -45,11 +45,20 @@
       "paint_seed": 55,
       "ask": 28.75,
       "edge_ratio": 1.5079254658385093
+    },
+    "listing:518619491414260708": {
+      "sent_at_utc": "2026-05-01T11:00:15.713499+00:00",
+      "query_name": "MAC-10 | Last Dive",
+      "market_hash_name": "MAC-10 | Last Dive (Factory New)",
+      "listing_id": "518619491414260708",
+      "paint_seed": 386,
+      "ask": 11.81,
+      "edge_ratio": 0.9637595258255716
     }
   },
-  "last_target_finished_at_utc": "2026-05-01T09:47:45.183518+00:00",
+  "last_target_finished_at_utc": "2026-05-01T14:48:35.386168+00:00",
   "last_rows_seen": 0,
   "last_opportunities": 0,
   "last_alerts_sent": 0,
-  "last_alert_sent_at_utc": "2026-05-01T07:29:36.024885+00:00"
+  "last_alert_sent_at_utc": "2026-05-01T11:00:15.713523+00:00"
 }
