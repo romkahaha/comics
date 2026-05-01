@@ -2,11 +2,11 @@
   "version": 1,
   "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
   "targets_count": 74,
-  "target_pointer": 21,
-  "cycle_count": 13,
-  "last_run_started_at_utc": "2026-05-01T09:48:04.765861+00:00",
-  "last_run_finished_at_utc": "2026-05-01T14:48:35.387783+00:00",
-  "last_target": "Galil AR | Caution",
+  "target_pointer": 55,
+  "cycle_count": 15,
+  "last_run_started_at_utc": "2026-05-01T14:49:02.777845+00:00",
+  "last_run_finished_at_utc": "2026-05-01T19:49:11.576594+00:00",
+  "last_target": "Sawed-Off | Brake Light",
   "last_status": "ok",
   "last_error": null,
   "sent_alerts": {
@@ -54,11 +54,20 @@
       "paint_seed": 386,
       "ask": 11.81,
       "edge_ratio": 0.9637595258255716
+    },
+    "listing:509612292217773039": {
+      "sent_at_utc": "2026-05-01T15:57:29.284766+00:00",
+      "query_name": "Tec-9 | Sandstorm",
+      "market_hash_name": "Tec-9 | Sandstorm (Field-Tested)",
+      "listing_id": "509612292217773039",
+      "paint_seed": 696,
+      "ask": 1.29,
+      "edge_ratio": 0.776279069767442
     }
   },
-  "last_target_finished_at_utc": "2026-05-01T14:48:35.386168+00:00",
+  "last_target_finished_at_utc": "2026-05-01T19:49:11.574966+00:00",
   "last_rows_seen": 0,
   "last_opportunities": 0,
   "last_alerts_sent": 0,
-  "last_alert_sent_at_utc": "2026-05-01T11:00:15.713523+00:00"
+  "last_alert_sent_at_utc": "2026-05-01T15:57:29.284788+00:00"
 }
