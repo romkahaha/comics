@@ -2,11 +2,11 @@
   "version": 1,
   "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
   "targets_count": 74,
-  "target_pointer": 53,
-  "cycle_count": 20,
-  "last_run_started_at_utc": "2026-05-02T03:37:47.925683+00:00",
-  "last_run_finished_at_utc": "2026-05-02T08:39:40.064417+00:00",
-  "last_target": "P250 | Nevermore",
+  "target_pointer": 0,
+  "cycle_count": 23,
+  "last_run_started_at_utc": "2026-05-02T08:40:01.724259+00:00",
+  "last_run_finished_at_utc": "2026-05-02T13:43:06.752389+00:00",
+  "last_target": "XM1014 | Ziggy",
   "last_status": "ok",
   "last_error": null,
   "sent_alerts": {
@@ -47,13 +47,13 @@
       "edge_ratio": 1.5028372670807455
     },
     "listing:518619491414260708": {
-      "sent_at_utc": "2026-05-01T11:00:15.713499+00:00",
+      "sent_at_utc": "2026-05-02T12:36:41.895933+00:00",
       "query_name": "MAC-10 | Last Dive",
       "market_hash_name": "MAC-10 | Last Dive (Factory New)",
       "listing_id": "518619491414260708",
       "paint_seed": 386,
-      "ask": 11.81,
-      "edge_ratio": 0.9637595258255716
+      "ask": 11.75,
+      "edge_ratio": 0.9482553191489362
     },
     "listing:509612292217773039": {
       "sent_at_utc": "2026-05-01T15:57:29.284766+00:00",
@@ -90,11 +90,20 @@
       "paint_seed": 60,
       "ask": 41.95,
       "edge_ratio": 0.7168247914183552
+    },
+    "listing:527626690803106040": {
+      "sent_at_utc": "2026-05-02T13:03:55.545819+00:00",
+      "query_name": "P250 | Nevermore",
+      "market_hash_name": "P250 | Nevermore (Field-Tested)",
+      "listing_id": "527626690803106040",
+      "paint_seed": 127,
+      "ask": 1.49,
+      "edge_ratio": 1.0255033557046977
     }
   },
-  "last_target_finished_at_utc": "2026-05-02T08:39:40.062729+00:00",
-  "last_rows_seen": 4,
+  "last_target_finished_at_utc": "2026-05-02T13:43:06.750735+00:00",
+  "last_rows_seen": 2,
   "last_opportunities": 0,
   "last_alerts_sent": 0,
-  "last_alert_sent_at_utc": "2026-05-02T08:34:39.686319+00:00"
+  "last_alert_sent_at_utc": "2026-05-02T13:03:55.545840+00:00"
 }
