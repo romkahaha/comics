@@ -2,11 +2,11 @@
   "version": 1,
   "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
   "targets_count": 74,
-  "target_pointer": 55,
-  "cycle_count": 15,
-  "last_run_started_at_utc": "2026-05-01T14:49:02.777845+00:00",
-  "last_run_finished_at_utc": "2026-05-01T19:49:11.576594+00:00",
-  "last_target": "Sawed-Off | Brake Light",
+  "target_pointer": 21,
+  "cycle_count": 18,
+  "last_run_started_at_utc": "2026-05-01T22:36:46.950805+00:00",
+  "last_run_finished_at_utc": "2026-05-02T03:37:25.602662+00:00",
+  "last_target": "Galil AR | Caution",
   "last_status": "ok",
   "last_error": null,
   "sent_alerts": {
@@ -63,11 +63,29 @@
       "paint_seed": 696,
       "ask": 1.29,
       "edge_ratio": 0.776279069767442
+    },
+    "listing:644718375646587095": {
+      "sent_at_utc": "2026-05-02T00:32:04.672475+00:00",
+      "query_name": "P250 | Mint Kimono",
+      "market_hash_name": "P250 | Mint Kimono (Factory New)",
+      "listing_id": "644718375646587095",
+      "paint_seed": 43,
+      "ask": 39.19,
+      "edge_ratio": 0.7373411584587908
+    },
+    "listing:628955776976448104": {
+      "sent_at_utc": "2026-05-02T02:34:21.778948+00:00",
+      "query_name": "P250 | Mint Kimono",
+      "market_hash_name": "P250 | Mint Kimono (Factory New)",
+      "listing_id": "628955776976448104",
+      "paint_seed": 12,
+      "ask": 40.8,
+      "edge_ratio": 0.7453725490196079
     }
   },
-  "last_target_finished_at_utc": "2026-05-01T19:49:11.574966+00:00",
+  "last_target_finished_at_utc": "2026-05-02T03:37:25.601063+00:00",
   "last_rows_seen": 0,
   "last_opportunities": 0,
   "last_alerts_sent": 0,
-  "last_alert_sent_at_utc": "2026-05-01T15:57:29.284788+00:00"
+  "last_alert_sent_at_utc": "2026-05-02T02:34:21.778959+00:00"
 }
