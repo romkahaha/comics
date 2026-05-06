@@ -2,11 +2,11 @@
   "version": 1,
   "targets_signature": "b28a9c4cfc4b781cc2da9573824154ace1f7c31b32976035f001d2688e0b3202",
   "targets_count": 74,
-  "target_pointer": 28,
-  "cycle_count": 28,
-  "last_run_started_at_utc": "2026-05-03T01:41:43.964810+00:00",
-  "last_run_finished_at_utc": "2026-05-03T06:44:41.048607+00:00",
-  "last_target": "Glock-18 | Moonrise",
+  "target_pointer": 3,
+  "cycle_count": 31,
+  "last_run_started_at_utc": "2026-05-06T00:17:15.940097+00:00",
+  "last_run_finished_at_utc": "2026-05-06T05:17:52.169437+00:00",
+  "last_target": "AWP | PAW",
   "last_status": "ok",
   "last_error": null,
   "sent_alerts": {
@@ -108,11 +108,20 @@
       "paint_seed": 583,
       "ask": 1.23,
       "edge_ratio": 0.8321951219512196
+    },
+    "listing:512990623221983027": {
+      "sent_at_utc": "2026-05-06T01:28:33.025966+00:00",
+      "query_name": "AWP | Electric Hive",
+      "market_hash_name": "AWP | Electric Hive (Minimal Wear)",
+      "listing_id": "512990623221983027",
+      "paint_seed": 376,
+      "ask": 47.68,
+      "edge_ratio": 0.7788317953020136
     }
   },
-  "last_target_finished_at_utc": "2026-05-03T06:44:41.046911+00:00",
-  "last_rows_seen": 13,
+  "last_target_finished_at_utc": "2026-05-06T05:17:52.167754+00:00",
+  "last_rows_seen": 15,
   "last_opportunities": 0,
   "last_alerts_sent": 0,
-  "last_alert_sent_at_utc": "2026-05-03T03:39:20.144990+00:00"
+  "last_alert_sent_at_utc": "2026-05-06T01:28:33.025987+00:00"
 }
